@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About T4T</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Properties (Variables) */
+        :root {
+            --white-color:                  #ffffff;
+            --primary-color:                #134242;
+            --secondary-color:              #134242;
+            --section-bg-color:             #f5f5f5;
+            --dark-color:                   #000000;
+            --p-color:                      #717275;
+
+            --body-font-family:             'DM Sans', sans-serif;
+
+            --h1-font-size:                 60px;
+            --h2-font-size:                 42px;
+            --h3-font-size:                 36px;
+            --h4-font-size:                 32px;
+            --h5-font-size:                 24px;
+            --h6-font-size:                 22px;
+            --p-font-size:                  18px;
+            --menu-font-size:               14px;
+            --copyright-text-font-size:     16px;
+
+            --font-weight-normal:           400;
+            --font-weight-medium:           500;
+            --font-weight-bold:             700;
+        }
+
+        body {
+            background-color: #134242;
+            font-family: var(--body-font-family);
+            color: var(--p-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--dark-color);
+            font-weight: var(--font-weight-bold);
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: var(--h2-font-size);
+            letter-spacing: -2px;
+        }
+
+        .content-section {
+            background-color: var(--section-bg-color);
+            padding: 60px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-padding {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+
+        .custom-btn {
+            background: var(--secondary-color);
+            border-radius: 100px;
+            color: var(--white-color);
+            font-size: var(--copyright-text-font-size);
+            font-weight: var(--font-weight-bold);
+            padding: 12px 24px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            margin-top: 20px;
+        }
+
+        .custom-btn:hover {
+            background: var(--primary-color);
+            color: var(--white-color);
+        }
+
+        .about-section h3 {
+            font-size: var(--h3-font-size);
+        }
+
+        .about-section p {
+            font-size: var(--p-font-size);
+            margin-bottom: 20px;
+        }
+
+        .about-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .about-section ul li {
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .about-section ul li::before {
+            content: "•";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section-title">
+            <h1>About T4T</h1>
+        </div>
+
+        <div class="content-section">
+            <div class="about-section">
+                <h2>About T4T</h2>
+                <p>Techies for Tomorrow (T4T) is a forward-thinking tech NGO dedicated to empowering the next generation of tech leaders. Inspired by the innovative 42 Network, T4T aims to redefine tech education by fostering a collaborative, project-based learning environment. We believe that by equipping individuals with the skills and mindset to innovate, we can shape a better future for all. T4T is more than just an educational platform; it’s a movement to democratize tech education and make it accessible to everyone, regardless of background or financial status.</p>
+
+                <h3>Vision</h3>
+                <p>To be the leading catalyst in transforming tech education, creating a global community of skilled, creative, and socially responsible tech professionals who will drive innovation and positive change across industries.</p>
+
+                <h3>Mission</h3>
+                <p>Our mission is to break down barriers to tech education and provide an inclusive, high-quality learning experience that prepares individuals for the challenges of the digital world. We are committed to nurturing creativity, collaboration, and problem-solving skills through hands-on projects, peer learning, and real-world applications.</p>
+
+                <h3>Core Values</h3>
+                <ul>
+                    <li>Inclusivity: We believe in equal access to tech education for everyone, regardless of background or financial status.</li>
+                    <li>Collaboration: We foster a community where teamwork, knowledge sharing, and peer learning are at the heart of the educational experience.</li>
+                    <li>Innovation: We encourage creative thinking and problem-solving, empowering our members to develop cutting-edge solutions to real-world challenges.</li>
+                    <li>Integrity: We operate with transparency and accountability, maintaining the highest standards of ethics in all our endeavors.</li>
+                    <li>Continuous Learning: We promote a culture of lifelong learning, where curiosity and self-improvement are celebrated.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="about-section">
+                <h2>How to Join T4T as a Student</h2>
+                <p>Joining T4T as a student is your first step toward becoming a tech leader of tomorrow. We welcome individuals who are passionate about technology and eager to learn. Our application process is straightforward:</p>
+
+                <ul>
+                    <li>Apply Online: Visit our website and fill out the application form. We’re looking for driven, curious individuals who are ready to commit to their tech education journey.</li>
+                    <li>Complete the Assessment: You’ll take part in a series of challenges designed to assess your problem-solving skills, creativity, and potential.</li>
+                    <li>Join the Community: Successful applicants will be invited to join our community of tech enthusiasts. You’ll gain access to our learning platform, where you can start working on projects and collaborate with peers.</li>
+                    <li>Start Learning: Dive into our project-based curriculum and start building your tech skills from day one. There are no teachers or classes—just real-world projects, peer learning, and a supportive community to guide you.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="about-section">
+                <h2>Support Us</h2>
+                <p>T4T is a non-profit organization driven by the passion to make tech education accessible to all. Your support helps us provide resources, mentorship, and opportunities to our students, ensuring they have the tools they need to succeed. Here’s how you can contribute:</p>
+
+                <ul>
+                    <li>Donate: Your financial contributions allow us to offer our programs free of charge to students, helping them focus on their education without the burden of financial constraints.</li>
+                    <li>Volunteer: Share your expertise by mentoring students, hosting workshops, or offering support in areas like project development, career counseling, and more.</li>
+                    <li>Partner with Us: Collaborate with T4T to create opportunities for our students. Whether through internships, job placements, or sponsorships, your partnership can make a significant impact.</li>
+                    <li>Spread the Word: Help us reach more potential students and supporters by sharing our mission and successes within your network.</li>
+                </ul>
+
+                <a href="#" class="custom-btn">Support T4T</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
